@@ -40,7 +40,7 @@ The ListStuffRequest message contains a nested PageOptions message that represen
 
 ## Custom Query Parameter Parser
 
-Create a custom [QueryParameterParser](https://github.com/grpc-ecosystem/grpc-gateway/blob/main/runtime/query.go#L30) to handle the nested PageOptions message.
+Create a custom [QueryParameterParser](https://github.com/peernova/grpc-gateway/blob/main/runtime/query.go#L30) to handle the nested PageOptions message.
 ```go
 package customparser
 
@@ -48,8 +48,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/utilities"
+	"github.com/peernova/grpc-gateway/v2/runtime"
+	"github.com/peernova/grpc-gateway/v2/utilities"
 	"google.golang.org/protobuf/proto"
 
 	your_service_v1 "path/to/your/service/v1"
@@ -90,7 +90,7 @@ func populateListStuffParams(values url.Values, r *your_service_v1.ListStuffRequ
 ```
 ## Integrate Your Custom Query Parameter Parser in gRPC-Gateway Setup
 
-All you need to do now is update the gRPC-Gateway setup, particularly wherever you are [defining the mux server](https://github.com/grpc-ecosystem/grpc-gateway/blob/main/runtime/mux.go#L293), to [use the custom query parameter parser](https://github.com/grpc-ecosystem/grpc-gateway/blob/main/runtime/mux.go#L110).
+All you need to do now is update the gRPC-Gateway setup, particularly wherever you are [defining the mux server](https://github.com/peernova/grpc-gateway/blob/main/runtime/mux.go#L293), to [use the custom query parameter parser](https://github.com/peernova/grpc-gateway/blob/main/runtime/mux.go#L110).
 ```go
 package main
 
@@ -98,7 +98,7 @@ import (
 	"context"
 	"net/http"
 	
-	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+	"github.com/peernova/grpc-gateway/v2/runtime"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/protobuf/encoding/protojson"
 
