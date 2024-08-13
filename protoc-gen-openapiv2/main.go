@@ -9,7 +9,7 @@ import (
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/codegenerator"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/descriptor"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/internal/genopenapi"
+	"github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/impl/genopenapi"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/utilities"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/proto"
