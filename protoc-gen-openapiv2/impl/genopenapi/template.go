@@ -16,8 +16,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/peernova/grpc-gateway/v2/internal/casing"
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
+	"github.com/peernova/grpc-gateway/v2/impl/casing"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
 	openapi_options "github.com/peernova/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/genproto/googleapis/api/visibility"

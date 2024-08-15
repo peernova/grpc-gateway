@@ -70,8 +70,8 @@ lint:
       - examples/internal/proto/pathenum/path_enum.proto
       - examples/internal/proto/sub/message.proto
       - examples/internal/proto/sub2/message.proto
-      - internal/descriptor/apiconfig/apiconfig.proto
-      - internal/descriptor/openapiconfig/openapiconfig.proto
+      - impl/descriptor/apiconfig/apiconfig.proto
+      - impl/descriptor/openapiconfig/openapiconfig.proto
       - protoc-gen-openapiv2/options/annotations.proto
       - protoc-gen-openapiv2/options/openapiv2.proto
       - runtime/internal/examplepb/example.proto
@@ -121,8 +121,8 @@ lint:
       - examples/internal/proto/pathenum/path_enum.proto
       - examples/internal/proto/sub/message.proto
       - examples/internal/proto/sub2/message.proto
-      - internal/descriptor/apiconfig/apiconfig.proto
-      - internal/descriptor/openapiconfig/openapiconfig.proto
+      - impl/descriptor/apiconfig/apiconfig.proto
+      - impl/descriptor/openapiconfig/openapiconfig.proto
       - protoc-gen-openapiv2/options/annotations.proto
       - protoc-gen-openapiv2/options/openapiv2.proto
       - runtime/internal/examplepb/example.proto

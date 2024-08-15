@@ -24,7 +24,7 @@ go_library(
     ],
     importpath = "github.com/peernova/grpc-gateway/v2/runtime",
     deps = [
-        "//internal/httprule",
+        "//impl/httprule",
         "//utilities",
         "@org_golang_google_genproto_googleapis_api//httpbody",
         "@org_golang_google_grpc//codes",

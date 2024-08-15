@@ -7,8 +7,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/peernova/grpc-gateway/v2/internal/codegenerator"
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
+	"github.com/peernova/grpc-gateway/v2/impl/codegenerator"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
 	"github.com/peernova/grpc-gateway/v2/protoc-gen-openapiv2/impl/genopenapi"
 	"github.com/peernova/grpc-gateway/v2/utilities"
 	"google.golang.org/grpc/grpclog"

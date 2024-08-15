@@ -6,8 +6,8 @@ import (
 	"go/format"
 	"path"
 
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
-	gen "github.com/peernova/grpc-gateway/v2/internal/generator"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
+	gen "github.com/peernova/grpc-gateway/v2/impl/generator"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"

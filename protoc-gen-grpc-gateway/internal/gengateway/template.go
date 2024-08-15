@@ -7,8 +7,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/peernova/grpc-gateway/v2/internal/casing"
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
+	"github.com/peernova/grpc-gateway/v2/impl/casing"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
 	"github.com/peernova/grpc-gateway/v2/utilities"
 	"google.golang.org/grpc/grpclog"
 )

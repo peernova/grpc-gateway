@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peernova/grpc-gateway/v2/internal/httprule"
+	"github.com/peernova/grpc-gateway/v2/impl/httprule"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"

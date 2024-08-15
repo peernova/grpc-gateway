@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
 	"github.com/peernova/grpc-gateway/v2/protoc-gen-openapiv2/impl/genopenapi"
 	"gopkg.in/yaml.v3"
 

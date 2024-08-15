@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
-	gen "github.com/peernova/grpc-gateway/v2/internal/generator"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
+	gen "github.com/peernova/grpc-gateway/v2/impl/generator"
 	openapioptions "github.com/peernova/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/grpc/grpclog"

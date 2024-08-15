@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/peernova/grpc-gateway/v2/internal/codegenerator"
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor/openapiconfig"
+	"github.com/peernova/grpc-gateway/v2/impl/codegenerator"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor/openapiconfig"
 	"github.com/peernova/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
@@ -122,7 +122,7 @@ type Registry struct {
 	// messageOptions is a mapping of fully-qualified message name to additional OpenAPI message options
 	messageOptions map[string]*options.Schema
 
-	//serviceOptions is a mapping of fully-qualified service name to additional OpenAPI service options
+	// serviceOptions is a mapping of fully-qualified service name to additional OpenAPI service options
 	serviceOptions map[string]*options.Tag
 
 	// fieldOptions is a mapping of the fully-qualified name of the parent message concat

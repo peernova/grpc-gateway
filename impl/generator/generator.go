@@ -2,7 +2,7 @@
 package generator
 
 import (
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
 )
 
 // Generator is an abstraction of code generators.

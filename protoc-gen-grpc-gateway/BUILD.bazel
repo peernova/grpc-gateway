@@ -8,8 +8,8 @@ go_library(
     srcs = ["main.go"],
     importpath = "github.com/peernova/grpc-gateway/v2/protoc-gen-grpc-gateway",
     deps = [
-        "//internal/codegenerator",
-        "//internal/descriptor",
+        "//impl/codegenerator",
+        "//impl/descriptor",
         "//protoc-gen-grpc-gateway/internal/gengateway",
         "@org_golang_google_grpc//grpclog",
         "@org_golang_google_protobuf//compiler/protogen",

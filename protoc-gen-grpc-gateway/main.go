@@ -16,8 +16,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/peernova/grpc-gateway/v2/internal/codegenerator"
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor"
+	"github.com/peernova/grpc-gateway/v2/impl/codegenerator"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor"
 	"github.com/peernova/grpc-gateway/v2/protoc-gen-grpc-gateway/internal/gengateway"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/protobuf/compiler/protogen"

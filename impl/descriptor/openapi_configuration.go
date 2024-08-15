@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/peernova/grpc-gateway/v2/internal/descriptor/openapiconfig"
+	"github.com/peernova/grpc-gateway/v2/impl/descriptor/openapiconfig"
 	"google.golang.org/protobuf/encoding/protojson"
 	"gopkg.in/yaml.v3"
 )
